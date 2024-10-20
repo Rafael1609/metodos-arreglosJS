@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gestor de Tareas</h1>
+
+      <!-- Input para nueva tarea -->
+      <input type="text" id="todo-input" placeholder="Nueva tarea" />
+      <button id="add-btn">Agregar Tarea</button>
+
+      <!-- Lista de tareas -->
+      <ul id="todo-list"></ul>
+
+      <!-- Contadores -->
+      <div id="counter">
+        <p>Total de tareas: <span id="total-task">0</span></p>
+        <p>Tareas completadas: <span id="completed-task">0</span></p>
+        <p>Tareas pendientes: <span id="pending-task">0</span></p>
+      </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
